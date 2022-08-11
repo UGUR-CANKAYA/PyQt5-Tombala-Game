@@ -1,4 +1,6 @@
 # PyQt5-Tombala-Game
-A Tombala Game designed with Python and Qt Designer.
+## A Tombala Game designed with Python and Qt Designer.
+
+I did this project by myself and I used the Python programming language while doing it. I designed this project using the Qt GUI development toolkit. I made this project using the knowledge I learned during the semester. In this project, I learned graphic-based application design.
 
 The game will be played with two players. A player card is designed for each player. There are 3 sets of 5 numbers on the card. The numbers for each set must be in ascending order. The numbers of a player card must be unique and randomly selected from 1 to 90. Initially, player cards must be blank. When the “Initialize Cards” button is pressed, the numbers should appear on the cards. The “Pick” button will be used to simulate getting a number from the bag. The selected number is displayed. The number should always be different from the previous ones. If the selected number is the same as one of the numbers on the player cards, you should specify it. After a number has been selected, the numbers on each row of player cards are checked. The first player to complete one of the lines on the player card gets 10 points. This is called "First Bingo". Then the first player to complete the two lines on the player card gets 20 points. This is also called the "Second Bingo". Then the first player to complete all the numbers on the player card gets 40 points. The player's score is displayed.
